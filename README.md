@@ -23,11 +23,16 @@ We will comment and review the proposal using the github issue and help you prep
 
 ### Step 4: Voting
 
-Existing committers of the SDV blueprints project vote on the blueprint proposal.  The voting will b done by commenting on the proposal with the following:
+Existing committers of the SDV blueprints project vote on the blueprint proposal.  The voting will be done by commenting on the proposal with the following:
 
   * +1 Yes
   * 0  Abstain
-  * -1 No 
+  * -1 No
+
+Provisional voting rules: 
+   * Three +1 and no objections (-1 must provide a detailed justification) will be needed to onboard the blueprint.
+   * Existing SDV blueprints committers, SDV steering commitee members and SDV project leaders, and Eclipse Foundation officers have a vote.
+   * Following the voting process, we will create a request with the Eclipse EMO helpdesk to add the new repository and committers for the Blueprints.
 
 ### Step 5: Onboarding
  We will as the eclipse help desk to:

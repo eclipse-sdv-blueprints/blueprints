@@ -1,6 +1,9 @@
+
 # Eclipse SDV Blueprints
 
 A collaborative initiative led by Eclipse SDV members to bring the *Software Defined Vehicle* concepts to life. A crucial aspect of each blueprint is to ensure users can easily reproduce it on their own. This requires well-written and highly clear documentation. Users can utilize blueprints as they are, for inspiration or as a foundation to customize and meet their specific needs.
+
+First and foremost, a blueprint must follow the [**Eclipse SDV TAC Principles**](./assets/sdv-tac-principles.md)
 
 ## This repository
 
@@ -16,13 +19,13 @@ Announce and present the idea for your blueprint.  You will do this by [creating
 
 ###  Step 2: Process for promotion into a new blueprint
 
-When you propose a new blue print you wil be expected to demonstrate that your blueprint meets some bare minimal criteria:
-* Running code: Available for review at a public repository (gitlab/github)
+We follow Eclipse foundation guidelines, and when you propose a new blue print, you wil be expected to demonstrate that your blueprint meets some bare minimal criteria:
+* Running code: Remember, **We are code first**. Your blueprint must be available for review at a public repository (gitlab/github)
 * It should demonstrate the use of at least one, preferably more SDV projects.
 * It should demonstrate the existence of a committers and a owner willing and able to maintain the blueprint
 * It should satisfy the pre-req documentation and metadata requirements
 * It should be compatible with SDV/Eclipse licensing requirements
-
+* We nominate and invite new committers if they are backed by strong code contributions and commitment to their blueprint. New committers will be nominated and voted in based on merit and their contributions  (must involve code), and not just by recommendation.
 ### Step 3: Comments and review
 
 We will comment and review the proposal using the github issue and help you prepare with the creation of the blueprint.
@@ -46,6 +49,18 @@ We will as the eclipse help desk to:
  * Create a new repository for you blueprint under this organization
  * We will add the committers of the blueprint to the project
  * You will have a month to commit your blueprint and get active.
+ * An existing SDV Blueprints committer will sponsor/mentor to each Blueprint propasal once it is accepted to help with bootstrapping the new proposal and with other procedural tasks such as approving pull requests and nominating committers.
+ * There must be code associated for each new blueprint proposal.  This code should not be trivial or just document a tutorial.  The code can be contributed as a repository (which will be moved to SDV blueprints) or a pull request.
+ * EMO will initiate an IP review for these contributions.
+ * The initial code contribution will be one of the factors for establishing merits for new committers for a blueprint proposal, so it is important that contributions which will be used for proof of work are clearly identified and contributors are named.
+   * To quote the EMO:
+
+> ... elections of both committers and project leads must include a demonstration of merit. Specifically, the nomination statement for an election should provide examples of how the candidate has demonstrated an understanding of the role they're being elected to. This demonstration is for both the project team and for the community.
+>    Describing what the candidate does or will do within the context of the project is not enough. You'll expected to provide links that prove it.  
+>    Here are some useful links regarding Committer elections: 
+>    - https://www.eclipse.org/projects/handbook/#elections-committer
+>    - https://www.eclipse.org/projects/handbook/#contributing-contributors
+>    - https://blog.waynebeaton.ca/posts/opensource/hired-a-committer/
 
 ## SDV Project Maturity
 

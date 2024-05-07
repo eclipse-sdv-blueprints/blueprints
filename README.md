@@ -62,6 +62,20 @@ We will as the eclipse help desk to:
 >    - https://www.eclipse.org/projects/handbook/#contributing-contributors
 >    - https://blog.waynebeaton.ca/posts/opensource/hired-a-committer/
 
+## SDBV Blueprints Badge
+Collaboration among Eclipse SDV projects is pivotal for the success and adoption for SDV technologies. To foster a culture of collaboration and recognize the efforts of SDV projects that actively engage in collaborative blueprints, we we provide an "SDV Blueprint Badge."
+
+This badge serves as a symbol of collaboration within the SDV community, inspiring and motivating projects to engage in mutually beneficial development and consolidation. In additions this badges may help earn "maturity" credits for the SDV maturity initiative.
+
+### Objective
+The primary objective of the SDV Blueprint Badge is to incentivize and recognize collaboration among SDV projects. By acknowledging and rewarding projects that actively participate in collaborative initiatives, the badge aims to foster a culture of cooperation, knowledge sharing, and innovation within the SDV ecosystem.
+
+### Badge Criteria
+An "SDV Blueprint Badge" will be rewarded to the SDV projects that actively participate in one or more SDV Blueprints.
+
+### Badge Design and Awarding
+A badge design is in the process of being provided by the Eclipse Foundation.  The badges are awarded automatically by the blueprint meta-data [.sdv-blueprint.json]()
+
 ## SDV Project Maturity
 
 As a part of the overall quality assurance process, participating in a blueprint will earn SDV projects a *maturity* badge.  These badges will be assigned automatically by blueprints meta-data that can be found in a blueprint project.  This metadata is maintained in a file named `.sdv-blueprint.json` and contains content that is similar to:

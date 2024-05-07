@@ -62,7 +62,7 @@ We will as the eclipse help desk to:
 >    - https://www.eclipse.org/projects/handbook/#contributing-contributors
 >    - https://blog.waynebeaton.ca/posts/opensource/hired-a-committer/
 
-## SDBV Blueprints Badge
+## SDV Blueprints Badge
 Collaboration among Eclipse SDV projects is pivotal for the success and adoption for SDV technologies. To foster a culture of collaboration and recognize the efforts of SDV projects that actively engage in collaborative blueprints, we we provide an "SDV Blueprint Badge."
 
 This badge serves as a symbol of collaboration within the SDV community, inspiring and motivating projects to engage in mutually beneficial development and consolidation. In additions this badges may help earn "maturity" credits for the SDV maturity initiative.

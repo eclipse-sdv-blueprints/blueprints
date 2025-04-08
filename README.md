@@ -63,9 +63,9 @@ We will as the eclipse help desk to:
 >    - https://blog.waynebeaton.ca/posts/opensource/hired-a-committer/
 
 ## SDV Blueprints Badge
-Collaboration among Eclipse SDV projects is pivotal for the success and adoption for SDV technologies. To foster a culture of collaboration and recognize the efforts of SDV projects that actively engage in collaborative blueprints, we we provide an "SDV Blueprint Badge."
+Collaboration among Eclipse SDV projects is pivotal for the success and adoption of SDV technologies. To foster a culture of collaboration and recognize the efforts of SDV projects that actively engage in collaborative blueprints, we provide an "SDV Blueprint Badge."
 
-This badge serves as a symbol of collaboration within the SDV community, inspiring and motivating projects to engage in mutually beneficial development and consolidation. In additions this badges may help earn "maturity" credits for the SDV maturity initiative.
+This badge serves as a symbol of collaboration within the SDV community, inspiring and motivating projects to engage in mutually beneficial development and consolidation. In addition, this badges may help earn "maturity" credits for the SDV maturity initiative.
 
 ### Objective
 The primary objective of the SDV Blueprint Badge is to incentivize and recognize collaboration among SDV projects. By acknowledging and rewarding projects that actively participate in collaborative initiatives, the badge aims to foster a culture of cooperation, knowledge sharing, and innovation within the SDV ecosystem.

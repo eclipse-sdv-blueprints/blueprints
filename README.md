@@ -45,7 +45,7 @@ Provisional voting rules:
 
 ### Step 5: Onboarding
 
-We will as the eclipse help desk to:
+With the help of eclipse foundation helpdesk and tools we will assist your onboarding.  In summary:
  * Create a new repository for you blueprint under this organization
  * We will add the committers of the blueprint to the project
  * You will have a month to commit your blueprint and get active.

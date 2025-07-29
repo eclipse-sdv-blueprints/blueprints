@@ -11,7 +11,7 @@ Eclipse SDV Blueprints project hosts a collection of blueprints. Each blueprint 
 
 ## Process and principles for new blueprints
 
-New blueprints will be added to the SDV Blueprints project without EMO interfering. It's up to the SDV Blueprints project and/or SDV working group to decide on the incoming criteria.  We will roughly follow the following process for creation of new blueprint.s
+New blueprints will be added to the SDV Blueprints project without EMO interfering. It's up to the SDV Blueprints project and/or SDV working group to decide on the incoming criteria.  We will roughly follow the following process for creation of new blueprints.
 
 ### Step 1: The Proposal
 
@@ -19,7 +19,7 @@ Announce and present the idea for your blueprint.  You will do this by [creating
 
 ###  Step 2: Process for promotion into a new blueprint
 
-We follow Eclipse foundation guidelines, and when you propose a new blue print, you wil be expected to demonstrate that your blueprint meets some bare minimal criteria:
+We follow Eclipse foundation guidelines, and when you propose a new blueprint, you wil be expected to demonstrate that your blueprint meets some bare minimal criteria:
 * Running code: Remember, **We are code first**. Your blueprint must be available for review at a public repository (gitlab/github)
 * It should demonstrate the use of at least one, preferably more SDV projects.
 * It should demonstrate the existence of a committers and a owner willing and able to maintain the blueprint
@@ -41,7 +41,7 @@ Existing committers of the SDV blueprints project vote on the blueprint proposal
 Provisional voting rules: 
    * Three +1 and no objections (-1 must provide a detailed justification) will be needed to onboard the blueprint.
    * Existing SDV blueprints committers, SDV steering commitee members and SDV project leaders, and Eclipse Foundation officers have a vote.
-   * Following the voting process, we will create a request with the Eclipse EMO helpdesk to add the new repository and committers for the Blueprints.
+   * Following the voting process, we will create a request with the Eclipse EMO helpdesk to add the new repository and committers for the blueprints.
 
 ### Step 5: Onboarding
 

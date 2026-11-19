@@ -1,6 +1,6 @@
 # Associated Blueprints
 
-An **Associated Blueprint** is a solution that combines Eclipse SDV technologies with commercial or otherwise not generally available components. It is hosted and maintained outside the Eclipse SDV Blueprints project and is featured on the [Eclipse SDV Blueprints website](https://sdv-blueprints.eclipse.dev/) with a short description and a link.
+An **Associated Blueprint** is a solution that uses Eclipse SDV technologies but requires commercial or otherwise not generally available components to run and demonstrate its use case. It is hosted and maintained outside the Eclipse SDV Blueprints project and is featured on the [Eclipse SDV Blueprints website](https://sdv-blueprints.eclipse.dev/) with a short description and a link.
 
 This page describes why the category exists, what qualifies, what an Associated Blueprint does and does not get, and how a proposal becomes one. The process for standard blueprints is described in the [README](./README.md) and the [onboarding guide](./ONBOARDING.md).
 
@@ -8,7 +8,7 @@ This page describes why the category exists, what qualifies, what an Associated 
 
 ## Why this category exists
 
-Standard blueprints operate under Eclipse Foundation governance. They must be built exclusively from open-source, generally available components so that anyone in the community can reproduce them out of the box, in compliance with Eclipse Foundation licensing and IP guidelines.
+Standard blueprints operate under Eclipse Foundation governance. They must run and demonstrate their use case using only open-source, generally available components, so that anyone in the community can reproduce them out of the box, in compliance with Eclipse Foundation licensing and IP guidelines. A standard blueprint may additionally support commercial components, provided it still works without them.
 
 Some valuable real-world integrations cannot meet that bar because they depend on a commercial platform, a licensed backend, or a component that is not generally available. They do not fit the standard governance model, but they show how Eclipse SDV technologies are used alongside commercial offerings, and the community wants them to be visible.
 
@@ -18,8 +18,8 @@ The Associated Blueprint category was introduced for these cases, following the 
 
 | | Standard Blueprint | Associated Blueprint |
 |---|---|---|
-| Components | Open source and generally available only | Eclipse SDV technologies combined with commercial or non-generally available components |
-| Reproducibility | Anyone can reproduce it out of the box | May require a commercial license, account or restricted access |
+| Components | Runs on open-source, generally available components; commercial components may be supported as an option | Requires commercial or non-generally available components to run |
+| Reproducibility | Anyone can reproduce the use case out of the box | Requires a commercial license, account or restricted access |
 | Hosting | Repository under [`eclipse-sdv-blueprints`](https://github.com/eclipse-sdv-blueprints) | Hosted by its owners, outside the Eclipse SDV Blueprints project |
 | Governance | Eclipse Foundation Development Process, as part of the Eclipse SDV Blueprints project | Not governed by the Eclipse SDV Blueprints project; the owners decide |
 | IP review and licensing | EMO IP review; Eclipse licensing requirements apply | No IP review or licensing requirements from this project |
@@ -36,7 +36,7 @@ An Associated Blueprint should:
 * Have a named owner or team willing and able to maintain it.
 * State clearly in its README which components are commercial or not generally available, and what a user needs (licenses, accounts, hardware) to reproduce it.
 
-A proposal that can be built entirely from open-source, generally available components should follow the standard blueprint process instead.
+A proposal that can run and demonstrate its use case without commercial or non-generally available components should follow the standard blueprint process instead, even if it optionally supports them.
 
 ## What an Associated Blueprint gets
 
@@ -58,29 +58,30 @@ If an Associated Blueprint is hosted in a repository that belongs to another Ecl
 
 ### 1. Proposal
 
-Proposals start the same way as any other blueprint: [create an issue](https://github.com/eclipse-sdv-blueprints/blueprints/issues) in this repository. Proposers who already know their solution includes commercial or non-generally available components can ask for Associated Blueprint status directly in the issue.
+Proposals start the same way as any other blueprint: [create an issue](https://github.com/eclipse-sdv-blueprints/blueprints/issues) in this repository. Proposers who already know their solution requires commercial or non-generally available components to run can ask for Associated Blueprint status directly in the issue.
 
 A proposal submitted as a standard blueprint may also be redirected to this category during review, if the discussion shows that it cannot meet the open-source and reproducibility requirements.
 
-### 2. Review and decision
+### 2. Review and vote
 
-The proposal is discussed on the issue. The Project Lead, in consultation with the Eclipse SDV Blueprints committers and the Eclipse SDV working group leadership, decides whether to offer Associated Blueprint status and posts the decision on the issue.
+The proposal is discussed on the issue. Existing committers then vote on granting Associated Blueprint status, using the same voting rules as for standard blueprints (see the [README](./README.md#step-4-voting)): three +1 and no objections. The Project Lead posts the result on the issue.
 
-Template for the decision comment:
+Template for the result comment:
 
 ```markdown
-Thank you for submitting this proposal and for your patience while we
-discussed it with the Eclipse SDV community and program leadership.
+Voting has concluded. Thank you for submitting this proposal and for your
+patience while we discussed it with the Eclipse SDV community.
 
-Standard blueprints operating under Eclipse Foundation governance require
-exclusively open-source, generally available components so that anyone in
-the community can reproduce them out of the box. Because this integration
-incorporates commercial or non-generally available components
-(<components>), it does not fit the standard governance model, but it
-represents a real-world use case we want to support.
+Standard blueprints operating under Eclipse Foundation governance must run
+and demonstrate their use case using only open-source, generally available
+components, so that anyone in the community can reproduce them out of the
+box. Because this integration requires commercial or non-generally
+available components to run (<components>), it does not fit the standard
+governance model, but it represents a real-world use case we want to
+support.
 
-We would like to offer this proposal the **Associated Blueprint** status,
-as described in
+The committers have voted to offer this proposal the **Associated
+Blueprint** status, as described in
 [ASSOCIATED_BLUEPRINTS.md](https://github.com/eclipse-sdv-blueprints/blueprints/blob/main/ASSOCIATED_BLUEPRINTS.md).
 
 If you would like to proceed, please confirm in a reply here and share a
@@ -111,7 +112,7 @@ A listing may be removed if its link is broken, the blueprint is no longer maint
 
 ## Moving to a standard blueprint
 
-If an Associated Blueprint later replaces its commercial or non-generally available components with open-source, generally available ones, its owners can propose it as a standard blueprint. It then follows the full process in the [README](./README.md), including voting, IP review and onboarding.
+If an Associated Blueprint no longer requires commercial or non-generally available components to run, its owners can propose it as a standard blueprint. It then follows the full process in the [README](./README.md), including voting, IP review and onboarding.
 
 ## Who to ask
 

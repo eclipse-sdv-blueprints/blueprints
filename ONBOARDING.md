@@ -4,7 +4,7 @@ This guide describes what happens **after a blueprint proposal has been accepted
 
 It complements the proposal process described in the [blueprints README](https://github.com/eclipse-sdv-blueprints/blueprints) (Steps 1–4: Proposal, Promotion, Review, Voting) and covers Step 5, *Onboarding*, in detail.
 
-This guide applies to standard blueprints. Solutions that include commercial or non-generally available components are handled as [Associated Blueprints](./ASSOCIATED_BLUEPRINTS.md), which are hosted externally and do not go through onboarding.
+This guide applies to standard blueprints. Solutions that require commercial or non-generally available components to run are handled as [Associated Blueprints](./ASSOCIATED_BLUEPRINTS.md), which are hosted externally and do not go through onboarding.
 
 All Eclipse SDV Blueprints are governed by the [Eclipse Foundation Development Process (EDP)](https://www.eclipse.org/projects/dev_process) and must follow the [Eclipse SDV TAC Principles](./assets/sdv-tac-principles.md). Where this guide and the EDP differ, the EDP wins.
 

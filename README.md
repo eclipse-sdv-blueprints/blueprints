@@ -25,6 +25,7 @@ We follow Eclipse foundation guidelines, and when you propose a new blueprint, y
 * It should demonstrate the existence of a committers and a owner willing and able to maintain the blueprint
 * It should satisfy the pre-req documentation and metadata requirements
 * It should be compatible with SDV/Eclipse licensing requirements
+* It should run and demonstrate its use case using only open-source, generally available components. It may additionally support commercial components, as long as they are optional. Proposals that require commercial or non-generally available components can be considered as [Associated Blueprints](./ASSOCIATED_BLUEPRINTS.md)
 * We nominate and invite new committers if they are backed by strong code contributions and commitment to their blueprint. New committers will be nominated and voted in based on merit and their contributions  (must involve code), and not just by recommendation.
 ### Step 3: Comments and review
 
@@ -61,6 +62,14 @@ With the help of eclipse foundation helpdesk and tools we will assist your onboa
 >    - https://www.eclipse.org/projects/handbook/#elections-committer
 >    - https://www.eclipse.org/projects/handbook/#contributing-contributors
 >    - https://blog.waynebeaton.ca/posts/opensource/hired-a-committer/
+
+## Associated Blueprints
+
+Standard blueprints must run and demonstrate their use case using only open-source, generally available components, so that anyone can reproduce them. They may additionally support commercial components as an option. Solutions that use Eclipse SDV technologies but require commercial or non-generally available components to run do not fit this model, but they can be recognized as **Associated Blueprints**.
+
+An Associated Blueprint is hosted and maintained outside the Eclipse SDV Blueprints project, is not subject to this project's governance, IP reviews or licensing rules, and is featured on the [Eclipse SDV Blueprints website](https://sdv-blueprints.eclipse.dev/) with a short description and a link to its repository. Its owners may use "Associated Blueprint" as an official label.
+
+See [**Associated Blueprints**](./ASSOCIATED_BLUEPRINTS.md) for the criteria and the process.
 
 ## SDV Blueprints Badge
 Collaboration among Eclipse SDV projects is pivotal for the success and adoption of SDV technologies. To foster a culture of collaboration and recognize the efforts of SDV projects that actively engage in collaborative blueprints, we provide an "SDV Blueprint Badge."
